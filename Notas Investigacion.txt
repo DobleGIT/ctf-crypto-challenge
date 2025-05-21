@@ -1,0 +1,24 @@
+Tras una exhaustiva investigación, hemos descubierto cómo fue hackeado el servidor donde se aloja terra.es. Todo comenzó con nuestro despistado administrador, Pepe, quien cayó en una trampa muuuuy elaborada. Aquí está el mail que nos envió:
+
+
+----------------------------------------
+**Mensaje de Pepe:**
+
+Buenos dias,
+
+Esta mañana, medio dormido y con mi primer café del día, abrí un correo que pensé que era de mi compañero Alfonso. El correo decía que tenía que hacer el backup del servidor. Solo tenía que ejecutar el archivo backup.py.
+
+Así que, sin pensarlo dos veces, lo ejecuté y mientras esperaba, me puse a anotar en readme.txt la documentación de mi código. Ni siquiera me había dado tiempo a acabar.... y zasca, ¡pantallazo y mensaje de encriptación! ¡El servidor secuestrado!
+
+Por suerte, nuestros directorios home están sincronizados se guardan automáticamente en un lugar seguro, así que he podido recuperar mi proyecto, porque estaba quedándome chulísimo y es muy importante para mi.... ;)
+
+Un saludo,
+Pepe el administrador del año.
+
+----------------------------------------
+
+Hemos logrado salvar su directorio home gracias a esos backups automáticos. Sin embargo, tras analizar la web de arriba a abajo, no encontramos nada útil.
+
+Nuestro equipo de investigación está convencido de que la clave para desencriptar el servidor se encuentra en ese dichoso backup.py. 
+
+¡Vamos a investigarlo a fondo!
